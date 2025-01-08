@@ -1,6 +1,6 @@
 import React from "react";
-import client from "../../../tina/__generated__/client";
-import Layout from "../../../components/layout/layout";
+import client from "../../../../tina/__generated__/client";
+import Layout from "../../../../components/layout/layout";
 import PostClientPage from "./client-page";
 
 export default async function PostPage({
@@ -24,5 +24,6 @@ export async function generateStaticParams() {
   const paths = posts.data?.postConnection.edges.map((edge) => ({
     filename: edge.node._sys.breadcrumbs,
   }));
+  console.log('PATHSYA', paths)
   return paths || [];
 }

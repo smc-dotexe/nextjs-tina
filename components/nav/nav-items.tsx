@@ -49,11 +49,11 @@ export default function NavItems({ navs }: { navs: any }) {
           >
             <Link
               data-tina-field={tinaField(item, "label")}
-              href={`/${item.href}`}
+              href={`/content/${item.href}`}
               className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:opacity-100 py-8 px-4`}
             >
               {item.label}
-              {currentPath === `/${item.href}` && (
+              {currentPath === `/content/${item.href}` && (
                 <NavActive
                   backgroundColor={activeBackgroundClasses[theme.color]}
                 />

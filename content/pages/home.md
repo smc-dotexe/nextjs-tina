@@ -1,7 +1,7 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - headline: Welcome to the Tina Starter
+  - headline: Welcome to Shane Dev's Test Site
     text: >
       ## **Editors**
 
@@ -73,4 +73,3 @@ blocks:
     color: primary
     _template: testimonial
 ---
-
