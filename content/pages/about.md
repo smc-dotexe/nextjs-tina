@@ -55,7 +55,7 @@ blocks:
       dedicated to making carbon credits accessible to all.
 
 
-      ## How Karbon-X Makes a Difference 
+      ## How Karbon-X Makes a Difference
 
 
       At Karbon-X, we make it easy for you to offset your carbon emissions
@@ -68,6 +68,14 @@ blocks:
       We work with global partners to find and support sustainable projects that
       reduce carbon emissions. These projects include things like reforestation
       and renewable energy.
+
+
+      ## Accurate Carbon Offset Calculation
+
+
+      Our Indigenous partner, Askiy Karbon, uses advanced technology to
+      calculate exactly how much carbon your activities produce. This ensures
+      you’re offsetting the right amount, making a real impact.
     color: default
     _template: content
 ---

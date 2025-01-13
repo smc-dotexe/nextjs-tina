@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Tina Cloud Starter
 blocks:
   - headline: Welcome to Shane Dev's Test Site
@@ -72,4 +72,4 @@ blocks:
     author: Phil Karlton
     color: primary
     _template: testimonial
----
+--- -->
