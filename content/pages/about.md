@@ -6,7 +6,7 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: Reduce Your Footprint
+        title: Reduce Your Footprintss
         text: ' Understand the impact of your carbon emissions and take action to reduce them.'
       - icon:
           name: ''
