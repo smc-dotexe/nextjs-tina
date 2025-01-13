@@ -59,7 +59,7 @@ export default async function RootLayout({
           <div className="container mx-auto flex justify-between items-center py-4 px-6">
             {/* Logo */}
             <a href="/" className="text-xl font-bold text-gray-800 hover:text-gray-600">
-              YourLogo
+              Karbon-X
             </a>
 
             {/* Navigation Links */}
