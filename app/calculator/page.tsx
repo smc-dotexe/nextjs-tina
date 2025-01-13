@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 
-const CarbonOffsetCalculator: React.FC = () => {
+export default function CarbonOffsetCalculator() {
   const [emissions, setEmissions] = useState<number>(0);
   const [cost, setCost] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -50,5 +50,3 @@ const CarbonOffsetCalculator: React.FC = () => {
     </div>
   );
 };
-
-export default CarbonOffsetCalculator;
