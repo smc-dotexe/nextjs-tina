@@ -20,7 +20,7 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: Be Part of the Solution
+        title: Be Part of the Solutionsss
         text: >-
           By offsetting, you're actively participating in the global effort
           against climate change.
