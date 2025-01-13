@@ -6,8 +6,7 @@ export default function CarbonOffsetCalculator() {
   const [cost, setCost] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  // Hypothetical cost per tonne of CO2e to offset
-  const COST_PER_TONNE = 28; // Example price in dollars
+  const COST_PER_TONNE = 28;
 
   const calculateOffsetCost = (emissions: number) => {
     if (isNaN(emissions) || emissions < 0) {
@@ -48,5 +47,5 @@ export default function CarbonOffsetCalculator() {
         </p>
       )}
     </div>
-  );
-};
+  )
+}
