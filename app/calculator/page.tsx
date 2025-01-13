@@ -17,7 +17,7 @@ export default function CarbonOffsetCalculator() {
       setCost(emissions * COST_PER_TONNE);
     }
   };
-
+  //
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Carbon Offset Calculator</h1>
